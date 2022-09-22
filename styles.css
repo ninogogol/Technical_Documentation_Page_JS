@@ -10,13 +10,6 @@ body {
     font-family: 'Comfortaa', cursive;
 }
 
-#navbar {
-    background-image: url("https://github.com/ninogogol/Technical_Documentation_Page_JS/blob/main/programming.png?raw=true");
-    background-position: 87% 58%;
-    background-repeat: no-repeat;
-    background-size: 600px;
-}
-
 h1 {
     font-size: 35px;
     font-weight: 700;
@@ -103,7 +96,9 @@ article {
     font-size: 20px;
     line-height: 1.5;
 }
-
+.output {
+    margin: 0 6%;
+}
 .output-img {
     display: block;
     margin: 0 auto;
@@ -178,6 +173,9 @@ footer {
     .bottom-list-item {
         font-size: 14px;
     }
+    .output {
+        margin: 0 6%;
+    }
     .output-img {
         width: 85%;
     }
@@ -190,4 +188,23 @@ footer {
         overflow: hidden;
     }
 
+}
+
+
+@media only screen and (min-width: 601px) {
+    #navbar {
+        background-image: url(https://github.com/ninogogol/Technical_Documentation_Page_JS/blob/main/programming.png?raw=true);
+        background-position: 100% 189%;
+        background-repeat: no-repeat;
+        background-size: 490px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #navbar {
+        background-image: url("https://github.com/ninogogol/Technical_Documentation_Page_JS/blob/main/programming.png?raw=true");
+        background-position: 87% 58%;
+        background-repeat: no-repeat;
+        background-size: 600px;
+    }
 }
